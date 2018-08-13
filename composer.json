@@ -1,0 +1,21 @@
+{
+    "name": "dendude/otus-1-4-12",
+    "description": "1 модуль. 4 занятие. 12 задание",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Kravtsov",
+            "email": "denis.kravtsov.1986@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DenDude\\Strategy\\": "src/Strategy",
+            "DenDude\\Tests\\": "tests/"
+        }
+    }
+}
