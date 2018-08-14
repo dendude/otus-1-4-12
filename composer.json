@@ -14,8 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DenDude\\Strategy\\": "src/Strategy",
-            "DenDude\\Tests\\": "tests/"
+            "DenDude\\": "src/"
         }
     }
 }
